@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Andressa",
+  "editor": "vscode",
+  "platform": "rp2040",
+  "parts": [
+    {
+      "id": "pico",
+      "type": "pico",
+      "pins": {
+        "GP22": "servo"
+      }
+    },
+    {
+      "id": "servo",
+      "type": "servo"
+    },
+    {
+      "id": "led",
+      "type": "rgb-led",
+      "pins": {
+        "common": "GND",
+        "red": "GP12"
+      }
+    }
+  ],
+  "connections": []
+}
